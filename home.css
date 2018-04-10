@@ -3,6 +3,7 @@ body {
 	text-align: center;
 }
 
+}
 span {
 	background-color: yellow;
 }
@@ -13,15 +14,20 @@ strong{
 
 img{
 	border: 3px solid hotpink;
-	height: 300px;
-}
-
-h1{
-	border: 3px solid hotpink;
+	height: 300px
+	display: block;
 	width: 50%;
-	text-align: center;
 }
 
 h1{
 	text-align: center; 
+}
+
+#title{
+	color: blue;
+	font-style: italic; 
+}
+
+.goal{
+	color: purple;
 }
