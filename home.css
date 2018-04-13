@@ -1,33 +1,43 @@
 body {
+	margin: 0;
+}
+
+#flex-container {
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+}
+
+nav {
+	background-color: lime;
+	height: 75px;
+}
+
+header {
+	background-color: lightskyblue;
+	height: 400px;
 	font-family: Avenir;
+	color: white;
 	text-align: center;
 }
 
-}
-span {
-	background-color: yellow;
-}
-
-strong{
-	color: pink;
+section {
+	background-color: gray;
+	margin: 75px 100px;
 }
 
-img{
-	border: 3px solid hotpink;
-	height: 300px
-	display: block;
-	width: 50%;
+footer {
+	background-color: black;
+	height: 100px;
 }
 
-h1{
-	text-align: center; 
+p {
+	background-color: orange;
+	height: 200px;
+	margin-bottom: 75px;
 }
-
-#title{
-	color: blue;
-	font-style: italic; 
-}
-
-.goal{
-	color: purple;
+div.col {
+	background-color: tomato;
+	border: 1px solid black;
+	width: calc(50% - 5px);
 }
