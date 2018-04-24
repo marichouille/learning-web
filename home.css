@@ -9,18 +9,34 @@ body {
 }
 
 nav {
-	background-color: lime;
-	height: 75px;
+	background-color: gray;
+	height: 30px;
+}
+
+header h1, h2 {
+	font-size: 50px;
+	color: black;
 }
 
 header {
-	background-color: lightskyblue;
-	height: 400px;
-	font-family: Avenir;
+	background-image: url('https://gettaphunter.com/wp-content/uploads/2016/04/tap.jpg');
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	font-family: Open Sans;
 	color: white;
 	text-align: center;
 }
 
+#overlay {
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 0;
+	width: 0;
+
+}
 section {
 	background-color: gray;
 	margin: 75px 100px;
