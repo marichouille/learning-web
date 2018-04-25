@@ -13,18 +13,20 @@ nav {
 	height: 30px;
 }
 
-header h1, h2 {
+h1, h2 {
 	font-size: 50px;
-	color: black;
+	font-family: Avenir;
+	font-weight: bold;
+	padding-top: 40px;
+	line-height: 0;
 }
 
 header {
-	background-image: url('https://gettaphunter.com/wp-content/uploads/2016/04/tap.jpg');
+	background-image: url('http://www.latabernalupulo.com/wp-content/uploads/2016/10/L-1-taps-1.jpg');
 	background-size: cover;
 	position: relative;
-	height: 300px;
-	font-family: Open Sans;
 	color: white;
+	height: 500px;
 	text-align: center;
 }
 
@@ -35,10 +37,25 @@ header {
 	bottom: 0;
 	height: 0;
 	width: 0;
-
 }
+
+#mc_embed_signup_scroll {
+	padding: 100px;
+}
+
+.email {
+	width: 300px;
+	border: 1px black solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.clear {
+	padding: 20px;
+}
+
 section {
-	background-color: gray;
+	background-color: white;
 	margin: 75px 100px;
 }
 
@@ -48,12 +65,20 @@ footer {
 }
 
 p {
-	background-color: orange;
-	height: 200px;
-	margin-bottom: 75px;
+	height: 100px;
+	margin-bottom: 25px;
+	color: black;
+	text-align: center;
+	font-family: Helvetica;
+	padding-top: 10px;
 }
+
+div.title {
+	display: block;
+}
+
 div.col {
 	background-color: tomato;
-	border: 1px solid black;
-	width: calc(50% - 5px);
+	width: calc(50% - 10px);
+	border-radius: 15px;
 }
