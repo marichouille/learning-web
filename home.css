@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: Avenir;
 }
 
 #flex-container {
@@ -21,6 +22,9 @@ h1, h2 {
 	line-height: 0;
 }
 
+header.p {
+	padding-bottom: 10px;
+}
 header {
 	background-image: url('http://www.latabernalupulo.com/wp-content/uploads/2016/10/L-1-taps-1.jpg');
 	background-size: cover;
@@ -40,7 +44,7 @@ header {
 }
 
 #mc_embed_signup_scroll {
-	padding: 100px;
+	padding: 20px;
 }
 
 .email {
@@ -64,12 +68,15 @@ footer {
 	height: 100px;
 }
 
-p {
+h3 {
+	text-align: center;
+}
+
+section p {
 	height: 100px;
 	margin-bottom: 25px;
 	color: black;
 	text-align: center;
-	font-family: Helvetica;
 	padding-top: 10px;
 }
 
