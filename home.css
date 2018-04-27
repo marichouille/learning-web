@@ -25,6 +25,7 @@ h1, h2 {
 header.p {
 	padding-bottom: 10px;
 }
+
 header {
 	background-image: url('http://www.latabernalupulo.com/wp-content/uploads/2016/10/L-1-taps-1.jpg');
 	background-size: cover;
@@ -63,12 +64,13 @@ section {
 	margin: 75px 100px;
 }
 
-footer {
-	background-color: black;
-	height: 100px;
+
+.description {
+	text-align: center;
+	padding: 20px;
 }
 
-h3 {
+h2, h3 {
 	text-align: center;
 }
 
@@ -81,11 +83,16 @@ section p {
 }
 
 div.title {
-	display: block;
+width: calc(50% - 10px);
+padding: 20px;
+padding-top: 10px;
 }
 
-div.col {
-	background-color: tomato;
-	width: calc(50% - 10px);
-	border-radius: 15px;
+img {
+	width: 30%;
+}
+
+footer {
+	background-color: black;
+	height: 100px;
 }
